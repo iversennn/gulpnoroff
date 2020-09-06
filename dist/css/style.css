@@ -13,6 +13,10 @@
   -ms-user-select: none;
   user-select: none;
 }
+html {
+  margin: 0 auto;
+  padding: 0 auto;
+}
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
@@ -46,6 +50,7 @@ body h2 {
   background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
   padding-top: 180px;
+  margin-bottom: 200px;
 }
 nav ul {
   margin: 0;
@@ -59,4 +64,25 @@ nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
+}
+.images {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.images img {
+  vertical-align: top;
+  max-width: 50%;
+  margin-top: -10px;
+  display: inline-block;
+}
+footer {
+  position: absolute;
+  margin-top: -55px;
+  width: 100%;
+  background: #8400ff;
+  height: 150px;
+  box-shadow: 0px 0px 100px 30px #c46cff;
+}
+footer h1 {
+  margin-top: 30px;
 }
